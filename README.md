@@ -39,3 +39,6 @@ The following extra features could be added:
 
 ## Licence
 This project is licensed under the MIT Licence.
+
+---
+The list of valid five-letter words is a subset of the list found [here](https://github.com/dwyl/english-words/tree/master). I have not checked this list for inappropriate words.

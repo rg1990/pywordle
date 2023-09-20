@@ -2,7 +2,7 @@
 This is a Python implementation of the popular game Wordle, built using Pygame. The code in this project is based on the tutorial series found [here](https://youtu.be/LP7Lja8ePpg?si=6ISR-HhaBQUqM53t) (I did not create these tutorials.) I have modified it to add some extra features (e.g. showing the QWERTY keyboard with coloured feedback), updating some game logic regarding valid/invalid words, and refactoring some parts to improve modularity and ease of modification.
 
 ## Demo
-Here is a gameplay demo. Note the screen recording and conversion to GIF have introduced some artefacts in the background and have made the animations appear less smooth.
+Here is a gameplay demo. (Note the screen recording and conversion to GIF have introduced some artefacts in the background and have made the animations appear less smooth.)
 <br>
 
 ![wordle_clone_GIF_small](https://github.com/rg1990/pywordle/assets/70291897/0d1f33a8-8dfb-41fe-aae6-8ac8b8e7cc06)

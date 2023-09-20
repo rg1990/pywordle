@@ -1,6 +1,13 @@
 # Wordle Game Built with Pygame
 This is a Python implementation of the popular game Wordle, built using Pygame. The code in this project is based on the tutorial series found [here](https://youtu.be/LP7Lja8ePpg?si=6ISR-HhaBQUqM53t) (I did not create these tutorials.) I have modified it to add some extra features (e.g. showing the QWERTY keyboard with coloured feedback), updating some game logic regarding valid/invalid words, and refactoring some parts to improve modularity and ease of modification.
 
+## Demo
+Here is a gameplay demo. Note the screen recording and conversion to GIF have introduced some artefacts in the background and have made the animations appear less smooth.
+<br>
+
+![wordle_clone_GIF_small](https://github.com/rg1990/pywordle/assets/70291897/0d1f33a8-8dfb-41fe-aae6-8ac8b8e7cc06)
+
+
 ## Summary
 - There are 2,309 five-letter words used in the game, stored in `data/wordle_word_list.txt`. The user must be able to enter other words with five letters that are not in `data/wordle_word_list.txt`, so a separate text file containing many more (and many more obscure) five-letter words is also provided at `data/five_letter_words.txt`. This larger file contains around 16,000 words.
 - Cell-level animations occur when the user enters a letter into a cell
@@ -19,12 +26,6 @@ This is a Python implementation of the popular game Wordle, built using Pygame. 
 - Continue guessing until you solve the puzzle or run out of attempts.
 
 The user has six attempts to deduce the unknown word. If they fail, the game is over and the solution is displayed at the top of the window.
-
-## UI and Example Game Screens
-Here are some screens that a user might see during a typical game:
-<br>
-
-![example_game_path](https://github.com/rg1990/pywordle/assets/70291897/b0ff6d4e-ee84-49ff-b039-cda4df118a07)
 
 ## Prerequisites
 - Python 3.x
